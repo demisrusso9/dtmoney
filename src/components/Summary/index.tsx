@@ -1,8 +1,8 @@
-import { Container } from './styles'
+import { Container } from './styles';
 
 interface SummaryProps {
-  name: 'Entradas' | 'Saídas' | 'Total'
-  icon: string
+  name: 'Entradas' | 'Saídas' | 'Total';
+  icon: string;
 }
 
 export function Summary({ name, icon }: SummaryProps) {
@@ -35,5 +35,5 @@ export function Summary({ name, icon }: SummaryProps) {
         <strong>R$ 17.400,00</strong>
       </div>
     </Container>
-  )
+  );
 }
